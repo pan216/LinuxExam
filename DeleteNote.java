@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import com.google.gson.reflect.TypeToken;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(urlPatterns = "/DeleteNotepad ")
+@WebServlet(urlPatterns = "/DeleteNote ")
 public class DeleteNote extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://180.76.150.157/linux_final";
