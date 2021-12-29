@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.*;
 
-@WebServlet(urlPatterns = "/GetStudentList")
+@WebServlet(urlPatterns = "/GetNotePadList")
 public class GetNotePadList extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://180.76.150.157/linux_final";
